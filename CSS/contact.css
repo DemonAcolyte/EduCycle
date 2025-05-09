@@ -1,0 +1,29 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+#contact-container {
+  background-color: rgb(96 139 168 / 0.2);
+  position: relative;
+  top: 50px;
+  height: 500px;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+}
+#logo-container {
+  text-align: center;
+  height: 20px;
+}
+#logo {
+  font-size: 30px;
+}
+#contact-info {
+  font-size: 20px;
+}
+.nav-link {
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+  text-decoration: none;
+}

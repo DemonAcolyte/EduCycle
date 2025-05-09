@@ -1,0 +1,41 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  color: black;
+  margin: 0px;
+}
+.logoText {
+  padding: 5px;
+  color: black;
+  font-size: 30px;
+}
+
+.about-container {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 900px;
+  height: 500px;
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  text-align: justify;
+  padding: 7px;
+}
+
+img {
+  position: relative;
+  display: flex;
+  border: 3px solid black;
+  top: 80px;
+  left: 70%;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin: 6px;
+  border-radius: 7px;
+}

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Onest:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+nav {
+  background: #383f51;
+  height: 75px;
+  width: 100%;
+}
+.logo {
+  color: white;
+  font-size: clamp(1.9rem, 3vw, 1rem);
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+.navdiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px;
+}
+.logo a {
+  font-size: 40px;
+}
+.links a {
+  list-style: none;
+  display: inline-block;
+  box-sizing: border-box;
+  transform: scale(1.05);
+}
+.nav-link {
+  color: #ffffff;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+}
+.navdiv a {
+  border: 2px solid transparent;
+
+  padding: 5px 20px;
+  display: inline-block;
+  transition: transform 0.2s;
+  box-sizing: border-box;
+}
+.navdiv a:hover {
+  border-bottom: solid 2px white;
+}
+/*Login and Registration*/
+.login {
+  position: relative;
+  background-color: antiquewhite;
+  padding: 10px;
+  width: 55vh;
+  height: 60vh;
+  top: 56px;
+  flex: 1 1 200px;
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-display: bold;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.register {
+  position: relative;
+  background-color: antiquewhite;
+  padding: 10px;
+  width: 55vh;
+  height: 90vh;
+  top: 49px;
+  flex: 1 1 200px;
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 0px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-display: bold;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+body {
+  background-color: #f7f7f8;
+  margin: 0% 0% 0% 0%;
+}
+
+@media (max-width: 768px) {
+  .login {
+    flex: 1 1 100%;
+  }
+  .register {
+    flex: 1 1 100%;
+  }
+  p {
+    font-size: clamp(1.9rem, 10vw, 5rem);
+  }
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: black;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.input-group input::placeholder {
+  color: #999;
+  font-style: italic;
+}
+
+/*Button*/
+.button1 {
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #383f51;
+  outline: 3px #383f51 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  color: white;
+  width: 30vh;
+  top: 10px;
+  margin-bottom: 5%;
+}
+
+.button1 .text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.button1 svg path {
+  transition: 400ms;
+}
+
+.button1:hover {
+  background-color: transparent;
+  color: #383f51;
+}
+
+.button1:hover .text {
+  color: #ffffff;
+}
+
+.button1:hover svg path {
+  fill: #ffffff;
+}
+
+/*Main page Designs*/
+.home {
+  font-size: clamp(1rem, 1.9vw, 5rem);
+  border-bottom: #383f51 solid;
+  text-align: center;
+}
+.error-message {
+  color: red;
+  display: none;
+}
+
+#user-error {
+  color: red;
+  position: relative;
+  top: 20px;
+  left: 42%;
+}
